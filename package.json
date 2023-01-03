@@ -1,0 +1,21 @@
+{
+  "name": "sussycms",
+  "version": "1.0.0",
+  "description": "An api for a cms written in express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase": "^9.15.0"
+  }
+}
