@@ -47,7 +47,7 @@ app.use(express.json());
 app.disable('x-powered-by')
 
 // Routes
-app.use("/home", (req, res) => {
+app.use("/", (req, res) => {
     return res.send(dbData)
 });
 
