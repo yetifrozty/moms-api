@@ -52,5 +52,5 @@ app.use("/", (req, res) => {
 });
 
 // connection
-const port = process.env.PORT || 9001;
+const port = process.env.PORT || 80;
 app.listen(port, () => console.log(`Listening to port ${port}`));
