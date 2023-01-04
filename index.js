@@ -48,7 +48,11 @@ app.disable('x-powered-by')
 
 // Routes
 app.use("/", (req, res) => {
-    return res.send(dbData)
+  res.set({
+    'Content-Type': 'application/json',
+    'Access-Control-Allow-Origin': '*'
+  })
+  return res.send(dbData)
 });
 
 // connection
